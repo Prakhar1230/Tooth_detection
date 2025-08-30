@@ -1,0 +1,21 @@
+# Ignore model weights (too large for GitHub)
+*.pt
+
+# Ignore Python cache and logs
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+
+# Ignore environment/config files
+.python-version
+.env
+.venv/
+*.egg-info/
+dist/
+build/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
